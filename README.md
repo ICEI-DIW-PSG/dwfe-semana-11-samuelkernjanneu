@@ -6,33 +6,42 @@ Imagine que a página principal (home-page) mostre um visão dos vários itens q
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Decreva brevemente seu projeto
+- Nome: Samuel  Kern Janneu
+- Matricula:1612893
+- Este projeto consiste em um catálogo de produtos com página de detalhes, utilizando JavaScript, DOM e JSON.
 
 ## Prints do trabalho
 
 <<  COLOQUE A IMAGEM - HOME-PAGE - AQUI >>
-
+![Home] (public/home.png)
 <<  COLOQUE A IMAGEM - TELA DE DETALHES - AQUI >>
-
+![Detalhes] (public/detalhes.png)
 ## Dados em JSON
 Inclua aqui a estrutura de dados definida por você para o projeto com pelo menos dois exemplo de dados.
 
 ```json
 {
-  "animes": [
+  "produtos": [
     {
       "id": 1,
-      "nome": "Naruto",
-      "genero": "Ação",
-      "destaque": true
+      "nome": "iPhone",
+      "preco": 5000,
+      "imagem": "public/imagens/iphone.jpg",
+      "descricao": "Smartphone da Apple"
     },
     {
       "id": 2,
-      "nome": "Fullmetal Alchemist",
-      "genero": "Aventura",
-      "destaque": false
+      "nome": "PlayStation 5",
+      "preco": 4500,
+      "imagem": "public/imagens/play5.jpg",
+      "descricao": "Console de última geração da Sony"
+    },
+    {
+      "id": 3,
+      "nome": "Notebook Dell",
+      "preco": 3500,
+      "imagem": "public/imagens/dell.jpg",
+      "descricao": "Notebook para trabalho e estudos"
     }
   ]
 }
